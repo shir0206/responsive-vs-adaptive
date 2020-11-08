@@ -1,2 +1,2 @@
-# responsive-vs-adaptive
+# AUI-Season
 Created with CodeSandbox

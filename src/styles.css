@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+html {
+  background: #333;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  direction: rtl;
+  text-align: center;
+}
+
+.adaptive {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+}
+
+@media screen and (max-width: 500px) {
+  .adaptive {
+    width: 300px;
+  }
+}
